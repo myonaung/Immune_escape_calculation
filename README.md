@@ -91,5 +91,6 @@ out_path = "antigen_distance_calculation/"
 #running the analysis
 logistic_regression(file_csv)
 ```
+We didn’t split original dataset into train/test set here and calculate ROC curve etc since we are comparing the results from above analysis. Hence, p-value and direction of correlation were the interest of the analysis. 
 
 ## XGboost and SHAP statistics 
