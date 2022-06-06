@@ -55,7 +55,7 @@ Random permutation of dataset is done for null hypothesis testing. Basically, it
 
 
 <p align="center">
-  <img src="./images/allele specific algorithm.png" height=80% width=80% >
+  <img src="./images/allele specific algorithm.png" height=100% width=100% >
 </p>
 
 <h4 align="center">Figure 1: Algorithm to identify polymorphisms associated with allele specific immunity.</h4>
