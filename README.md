@@ -70,3 +70,7 @@ Random permutation of dataset is done for null hypothesis testing. Basically, it
 </p>
 
 <h4 align="center">Figure 1: Algorithm to identify polymorphisms associated with allele specific immunity.</h4>
+
+### Binary logistic regression using glm R package
+
+### XGboost and SHAP statistics 
