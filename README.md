@@ -26,3 +26,4 @@ done
 bcftools concat -a *_shapeit.vcf.gz -o phased_final.vcf
 ```
 
+### Notes on GMAP file for *Plasmodium falciparum*
