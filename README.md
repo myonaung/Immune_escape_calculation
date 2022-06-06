@@ -22,9 +22,9 @@ done
 bcftools concat -a *_shapeit.vcf.gz -o phased_final.vcf
 ```
 
-### Notes on GMAP file for *Plasmodium falciparum*
+### Notes on GMAP file for *Plasmodium falciparum* 
 
 GMAP is a tab-delimited txt file with 3 columns as follows: 
-pos: containing the base-pair position
-chr: this should be a number between 1-14 (i.e. "Pf3D7_([0-9]+)_v3")
-cM: this is the base-pair position divided by the length of 1cM with the most recent estimate for *Plasmodium falciparum* is 13.5kb per centimorgan.
+- pos: containing the base-pair position
+- chr: this should be a number between 1-14 (i.e. "Pf3D7_([0-9]+)_v3")
+- cM: this is the base-pair position divided by the length of 1cM with the most recent estimate for *Plasmodium falciparum* is 13.5kb per centimorgan.
