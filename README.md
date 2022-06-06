@@ -52,3 +52,10 @@ allele_specific_immunity(path,source, path_fasta, Antigen, permutation)
 ```
 
 Random permutation of dataset is done for null hypothesis testing. Basically, it is the comparision of observed dataset with simulated dataset and calculate probability of observing real data in simulated dataset `obs probability`. Higher values (for example, >0.5) indicates that the observed data is mostly likely to be found by chance. 
+
+
+<p align="center">
+  <img src="./images/allele specific algorithm.png" height=50% width=50% >
+</p>
+
+<h4 align="center">Figure 1: Algorithm to identify polymorphisms associated with allele specific immunity.</h4>
