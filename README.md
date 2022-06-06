@@ -6,6 +6,9 @@ Table of contents
   * [Methods](#methods)
   * [SHAPEIT4](#SHAPEIT4)
   * [Calculating changes in individual polymorphic residues of each antigen and the risk of clinical malaria](#Calculating-changes-in-individual-polymorphic-residues-of-each-antigen-and-the-risk-of-clinical-malaria)
+  * [Binary logistic regression using glm R package](#Binary-logistic-regression-using-glm-R-package)
+  * [XGboost and SHAP statistics ](#XGboost-and-SHAP-statistics)
+
 
 ## Authors
 
