@@ -22,6 +22,8 @@ done
 bcftools concat -a *_shapeit.vcf.gz -o phased_final.vcf
 ```
 
+`.gmap` file of each chromosome is based on the polymorphic sites found in the population.
+
 ### Notes on GMAP file for *Plasmodium falciparum* 
 
 GMAP is a tab-delimited txt file with 3 columns as follows: 
