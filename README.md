@@ -77,6 +77,8 @@ Random permutation of dataset is done for null hypothesis testing. Basically, it
 
 <h4 align="center">Figure 1: Algorithm to identify polymorphisms associated with allele specific immunity.</h4>
 
+<h4 align="center">Figure 2: Infection simulations.</h4>
+
 ## Binary logistic regression using glm R package
 The following R-wrapper function [`logistic_regression_function.R`](https://github.com/myonaung/Mapping-within-host-antigenic-escape/tree/main/scripts) is used to build univariate model for each polymorphic sites adjusted for cofounding variables such as molecular force of infection (molFOI) of each children.  The response variable is whether an individual is experiencing symptomatic or non-symptomatic clinical episodes in relation to changes in each polymorphic positions. Multiplicity of infection (MOI up to 2 clones per infection with minor clone proportion greater than 20%) is included in the analysis where  possible. The following example used the subset of AMA1 sequences from our sequencing cohorts.
 
