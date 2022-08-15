@@ -6,8 +6,6 @@ Table of contents
   * [SHAPEIT4](#SHAPEIT4)
   * [Calculating changes in individual polymorphic residues of each antigen and the risk of clinical malaria](#Calculating-changes-in-individual-polymorphic-residues-of-each-antigen-and-the-risk-of-clinical-malaria)
   * [Binary logistic regression using glm R package](#Binary-logistic-regression-using-glm-R-package)
-  * [XGboost and SHAP statistics ](#XGboost-and-SHAP-statistics)
-
 
 ## Authors
 
@@ -100,6 +98,3 @@ out_path = "antigen_distance_calculation/"
 logistic_regression(file_csv)
 ```
 We didn’t split original dataset into train/test set here and calculate ROC curve etc since we are comparing the results from above analysis. Hence, p-value and direction of correlation were the interest of the analysis. 
-
-## XGboost and SHAP statistics 
-in progress
