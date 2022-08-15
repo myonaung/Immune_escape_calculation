@@ -73,9 +73,7 @@ Random permutation of dataset is done for null hypothesis testing. Basically, it
   <img src="./images/allele specific algorithm.png" height=100% width=100% >
 </p>
 
-<h4 align="center">Figure 1: Description of EVADE algorithm including infection simulations. The output of algorithm is mapped onto the available protein structure. This includes more than 100 symptomatic transitions (i.e., second infection of the pair is symptomatic) and more than 200 asymptomatic transitions (i.e., second infection of the pair is asymptomatic).</h4>
-
-
+<h4 align="center">Figure 1: Description of EVADE algorithm including infection simulations.</h4>
 
 ## Binary logistic regression using glm R package
 The following R-wrapper function [`logistic_regression_function.R`](https://github.com/myonaung/Mapping-within-host-antigenic-escape/tree/main/scripts) is used to build univariate model for each polymorphic sites adjusted for cofounding variables such as molecular force of infection (molFOI) of each children.  The response variable is whether an individual is experiencing symptomatic or non-symptomatic clinical episodes in relation to changes in each polymorphic positions. Multiplicity of infection (MOI up to 2 clones per infection with minor clone proportion greater than 20%) is included in the analysis where  possible. The following example used the subset of AMA1 sequences from our sequencing cohorts.
