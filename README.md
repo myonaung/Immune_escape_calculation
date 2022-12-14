@@ -4,7 +4,7 @@ Table of contents
 ----------------
   * [Authors](#authors)
   * [SHAPEIT4](#SHAPEIT4)
-  * [Calculating changes in individual polymorphic residues of each antigen and the risk of clinical malaria](#Calculating-changes-in-individual-polymorphic-residues-of-each-antigen-and-the-risk-of-clinical-malaria)
+  * [Calculating within host allelic turnover rate with clinical infections](#Calculating-changes-in-individual-polymorphic-residues-of-each-antigen-and-the-risk-of-clinical-malaria)
   * [Binary logistic regression using glm R package](#Binary-logistic-regression-using-glm-R-package)
 
 ## Authors
@@ -44,7 +44,7 @@ GMAP is a tab-delimited txt file with 3 columns as follows:
 - chr: this should be a number between 1-14 (i.e, "Pf3D7_([0-9]+)_v3")
 - cM: this is the base-pair position divided by the length of 1cM with the most recent estimate for *Plasmodium falciparum* is 13.5kb per centimorgan.
 
-## Calculating changes in individual polymorphic residues of each antigen and the risk of clinical malaria
+## Calculating within host allelic turnover rate with clinical infections
 
 The following analyses were done on translated dna sequences of coding regions (i.e. AA acid sequences) from the aligned FASTA files. However, the script and analyses should be the same for any dna level calculation. The following analyses were done in R v4.0.0.  
 
