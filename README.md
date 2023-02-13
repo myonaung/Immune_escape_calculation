@@ -53,6 +53,8 @@ The following script will work for any analysis that has the exact same format o
 
 Scoring is done based on changes of each polymorphic in each clinical episode transition i.e, transition to symptomatic vs transition to asymptomatic states within the same individual (change = 1, no change =0). The mean of scores (total sum/number of transition=value or 50/100 = 0.5) for each polymorphic sites are calculated for each category separately (i.e., transition to symptomatic vs transition to asymptomatic states). Polymorphic sites that has higher turnover in symptomatic transitions (mean scores in symptomatic transition >  mean scores in asymptomatic transition) are assumed to be associated with immune escape. To differentiate polymorphic sites associated with virulence from immune escape, polymorphisms found under certain threshold with asymptomatic episodes was removed even though they have higher turnover rate within symptomatic transitions (i.e. polymorphic sites that found under 5% with asymptomatic episodes). The analysis can be achived as follow:
 
+Example script can also be found in [`allele_specific_immunity_with_permutation_cal.R`](https://github.com/myonaung/Immune_escape_calculation/tree/main/scripts/allele_specific_immunity_with_permutation_cal.R). 
+
 ```
 source("allele_specific_immunity_with_permutation_cal.R")
 
